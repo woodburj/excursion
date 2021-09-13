@@ -1,6 +1,6 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: black;
+    background: black;
 }
 
 h1 {
@@ -10,9 +10,31 @@ h1 {
     text-align: center;
 }
 
-a {
+h2 {
+    font-weight: 300;
+    font-size: 42px;
+    color: white;
+    text-align: center;
+}
+
+.download-link {
     color: aquamarine;
     font-size: 16px;
     text-align: center;
 }
 
+video, img {
+    display: block;
+    margin: auto;
+}
+
+.tag-line {
+    color: gray;
+    text-align: center;
+    font-size: 21px;
+}
+
+.copyright {
+    color: gray;
+    text-align: right;
+}
